@@ -5,6 +5,6 @@ services:
     image: robsonsamp/angular-fed-ui-kit-app
     ports: 
       - 8000:80
-    container_name: centraldev-fed-app
+    container_name: centraldev-fed-ui-app
     volumes:
        - ./src:/usr/src/app/src
